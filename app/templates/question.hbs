@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 qa-main">
+      <h2>Question</h2>
+      <div class="question-detail">
+        <blockquote>{{model.questionContent}}</blockquote>
+        <p class="question-post-meta">{{model.questionAuthor}}</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 qa-main">
+      <h2>Answers</h2>
+      {{new-answer question=model saveAnswer="saveAnswer"}}
+      <br><br>
+      {{#each model.answers  as |answer|}}
+        {{answer-tile answer=answer}}
+      {{/each}}
+    </div>
+  </div>
+</div>

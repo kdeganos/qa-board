@@ -1,1 +1,32 @@
-{{outlet}}
+<div class="container">
+  <div class="qa-header">
+    <h1 class="qa-title">QA Board</h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-8 qa-main">
+
+      <div class="question-post">
+      <ul>
+        {{#each model as |question|}}
+          {{#link-to 'question' question.id}}<blockquote>{{question.questionContent}}</blockquote>
+          <p class="question-post-meta">{{question.questionAuthor}} </p>{{/link-to}}
+          <hr>
+          <br><br>
+        {{/each}}
+      </ul>
+    </div><!-- /.question-post -->
+
+
+    </div><!-- /.qa-main -->
+
+    <div class="col-sm-3 col-sm-offset-1 qa-sidebar">
+
+        <div class="sidebar-module">
+          {{new-question saveQuestion="saveQuestion"}}
+        </div>
+      </div><!-- /.qa-sidebar -->
+
+  </div><!-- /.row -->
+</div>

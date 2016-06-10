@@ -5,7 +5,12 @@ module.exports = function(environment) {
     modulePrefix: 'qa-board',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://qa-board-1e49e.firebaseio.com/',
+    firebase: {
+    apiKey: 'xyz',
+    authDomain: '',
+    databaseURL: 'https://qa-board-1e49e.firebaseio.com/',
+    storageBucket: 'qa-board-1e49e.appspot.com',
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
