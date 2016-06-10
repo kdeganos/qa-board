@@ -4,7 +4,10 @@
       <h2>Question</h2>
       <div class="question-detail">
         <blockquote>{{model.questionContent}}</blockquote>
-        <p class="question-post-meta">{{model.questionAuthor}}</p>
+        <div class="question-notes">
+          <p><strong>Additional notes: </strong>{{model.notes}}</p>
+        </div>
+        <p class="question-post-meta">By: <strong>{{model.questionAuthor}}</strong></p>
       </div>
     </div>
     <hr>
