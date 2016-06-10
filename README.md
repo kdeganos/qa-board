@@ -1,8 +1,11 @@
 # Qa-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Website that allows users ask and answer questions, 06/10/2016_
 
+#### By Kevin Deganos
+
+## Description
+This app enables users to ask and answer questions. Users may edit and delete questions.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -15,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/kdeganos/qa-board.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -23,31 +26,10 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit the app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+### License
 
-Make use of the many generators for code, try `ember help generate` for more details
+*Code released under the MIT license.*
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **Kevin Deganos**
