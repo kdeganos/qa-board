@@ -5,7 +5,7 @@
 #### By Kevin Deganos
 
 ## Description
-This app enables users to ask and answer questions. Users may edit and delete questions. Answers may be upvoted or downvoted.
+This app enables users to ask and answer questions. Users may edit and delete questions. Answers may be upvoted or downvoted. Questions and answers will be timestamped on creation.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.

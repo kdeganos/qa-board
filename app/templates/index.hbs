@@ -10,8 +10,8 @@
       <div class="question-post">
       <ul>
         {{#each model as |question|}}
-          {{#link-to 'question' question.id}}<blockquote>{{question.questionContent}}</blockquote>
-          <p class="question-post-meta">By <strong>{{question.questionAuthor}}</strong> on <strong>{{question.date}}</strong></p>{{/link-to}}
+        <blockquote>  {{#link-to 'question' question.id}}{{question.questionContent}}{{/link-to}}</blockquote>
+            <p class="question-post-meta">{{#link-to 'question' question.id}}By <strong>{{question.questionAuthor}}</strong> on <strong>{{question.date}}</strong>{{/link-to}}</p>
           <hr>
           <br><br>
         {{/each}}
