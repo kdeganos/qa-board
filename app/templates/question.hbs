@@ -9,6 +9,7 @@
         </div>
         <p class="question-post-meta">By: <strong>{{model.questionAuthor}}</strong></p>
       </div>
+      {{edit-question question=model updateQuestion="updateQuestion" destroyQuestion="destroyQuestion"}}
     </div>
     <hr>
   </div>
