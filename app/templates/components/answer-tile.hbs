@@ -1,7 +1,7 @@
 <div class="answer-detail">
   <p><strong>Rating:</strong> {{answer.rating}}</p>
   <blockquote>{{answer.answerContent}}</blockquote>
-  <p class="question-post-meta">By: <strong>{{answer.answerAuthor}}</strong></p>
+  <p class="question-post-meta">By <strong>{{answer.answerAuthor}}</strong> on <strong>{{answer.date}}</strong></p>
 <button {{action 'answerUp' answer}} class="btn btn-primary">Upvote</button>
 <button {{action 'answerDown' answer}} class="btn btn-warning">Downvote</button>
 <hr>

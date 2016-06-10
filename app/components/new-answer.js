@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         answerAuthor: this.get('answerAuthor'),
         answerContent: this.get('answerContent'),
         rating: 0,
+        date: moment().format("dddd, MMMM Do YYYY, h:mm:ss a"),
         question: this.get('question')
       };
       this.set('addNewAnswer', false);
